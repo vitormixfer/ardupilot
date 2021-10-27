@@ -14,7 +14,13 @@
  */
 
 #include "AP_Airspeed_EagleTree.h"
+#include <AP_Common/AP_Common.h>
+#include <AP_HAL/AP_HAL.h>
+#include <AP_HAL/I2CDevice.h>
+#include <AP_Math/AP_Math.h>
+#include <GCS_MAVLink/GCS.h>
 #include <stdio.h>
+#include <utility>
 
 extern const AP_HAL::HAL &hal;
 
