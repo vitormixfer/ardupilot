@@ -26,6 +26,7 @@
 #include <utility>
 #include <AP_Vehicle/AP_Vehicle.h>
 #include "AP_Airspeed.h"
+#include "AP_Airspeed_EagleTree.h"
 #include "AP_Airspeed_MS4525.h"
 #include "AP_Airspeed_MS5525.h"
 #include "AP_Airspeed_SDP3X.h"
